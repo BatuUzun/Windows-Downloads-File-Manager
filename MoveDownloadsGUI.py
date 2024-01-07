@@ -7,6 +7,7 @@ from googletrans import Translator
 import unicodedata
 import stat
 import sys
+from PyQt6.QtGui import QIcon
 
 class FileOperation():
     downloads_path = ""
@@ -123,6 +124,9 @@ class MyWindow(QDialog):
         # Create labels
         self.moveWithoutFolderLbl = QLabel("Move files to OUTSIDE a folder!")
         self.moveInsideFolderLbl = QLabel("Move files to INSIDE a folder!")
+
+        self.setWindowIcon(QIcon('icon.ico'))
+
 
         font = self.font()
         
