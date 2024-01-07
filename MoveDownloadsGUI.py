@@ -122,8 +122,8 @@ class MyWindow(QDialog):
         super().__init__()
 
         # Create labels
-        self.moveWithoutFolderLbl = QLabel("Move files to OUTSIDE a folder!")
-        self.moveInsideFolderLbl = QLabel("Move files to INSIDE a folder!")
+        self.moveWithoutFolderLbl = QLabel("Move files OUTSIDE a folder!")
+        self.moveInsideFolderLbl = QLabel("Move files INSIDE a folder!")
 
         self.setWindowIcon(QIcon('icon.ico'))
 
