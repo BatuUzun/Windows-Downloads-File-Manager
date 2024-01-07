@@ -158,7 +158,6 @@ class MyWindow(QDialog):
 
         self.setWindowTitle('MoveDownloads')
 
-        QApplication.setStyle("Fusion")
         self.show()
 
     def moveWithoutFolderLbl_clicked(self, event):
