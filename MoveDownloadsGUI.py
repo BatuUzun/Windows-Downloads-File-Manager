@@ -121,8 +121,8 @@ class MyWindow(QDialog):
         super().__init__()
 
         # Create labels
-        self.moveWithoutFolderLbl = QLabel("Move OUTSIDE a folder!")
-        self.moveInsideFolderLbl = QLabel("Move INSIDE a folder!")
+        self.moveWithoutFolderLbl = QLabel("Move files to OUTSIDE a folder!")
+        self.moveInsideFolderLbl = QLabel("Move files to INSIDE a folder!")
 
         font = self.font()
         
@@ -156,7 +156,7 @@ class MyWindow(QDialog):
         self.moveWithoutFolderLbl.mousePressEvent = self.moveWithoutFolderLbl_clicked
         self.moveInsideFolderLbl.mousePressEvent = self.moveInsideFolderLbl_clicked
 
-        self.setWindowTitle('PyQt6 Window with Labels')
+        self.setWindowTitle('MoveDownloads')
 
         QApplication.setStyle("Fusion")
         self.show()
