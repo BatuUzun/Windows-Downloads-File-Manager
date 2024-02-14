@@ -14,7 +14,11 @@ Credits: yasinkngl
 
 * PyQt6 is used to generate a GUI. 
 
-* In order to see my project running, you can check my GoogleDrive: https://drive.google.com/drive/folders/1uK4mMWNqXnR9XINzyN5Q3m4kwvUyurbp?usp=drive_link
+* In order to see whole project running, you can check my Google Drive.
+
+* My Google Drive: https://drive.google.com/file/d/1uhwXX2x8fo1YljfT_vjz9oTfHOVKoqfY/view?usp=drive_link
+
+* For further information about me: https://www.batuuzun.com/
 
 ![image](https://github.com/BatuUzun/Windows-Downloads-File-Manager/assets/103521291/a6053d28-48b5-4c17-acfc-b801ed4b9d44)
 
